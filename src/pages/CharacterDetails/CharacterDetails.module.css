@@ -1,0 +1,68 @@
+.sectionCharacterDetails {
+  padding: 20px;
+}
+
+.characterInfo {
+  width: 395px;
+  margin: 0 auto;
+}
+
+.linkBack {
+  width: 70px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.imagePoster {
+  margin: 0 auto;
+  width: 300px;
+  margin-bottom: 11px;
+  border-radius: 50%;
+  border: 5px solid #f2f2f7;
+}
+
+.titleItem {
+  margin-bottom: 48px;
+  width: 100%;
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.17;
+  color: #081f32;
+}
+.titleItem_text {
+  text-align: center;
+  margin-bottom: 48px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #8e8e93;
+  letter-spacing: 0.15px;
+}
+
+.list {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.listItem {
+  text-align: start;
+  height: 64px;
+  padding-top: 9px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+}
+
+.listItem_title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+}

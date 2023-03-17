@@ -1,16 +1,12 @@
+import { Routes, Route } from 'react-router-dom';
+import { Home } from 'pages/Home/Home';
+import { CharacterDetails } from 'pages/CharacterDetails/CharacterDetails';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      Hello world!
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="character/:idDetails" element={<CharacterDetails />} />
+    </Routes>
   );
 };

@@ -1,0 +1,42 @@
+.characterList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1020px;
+  gap: 24px 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.characterItem {
+  width: 240px;
+  overflow: hidden;
+
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12),
+    0px 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+.imageItem {
+  width: 240px;
+  height: 168px;
+}
+
+.characterText {
+  padding: 12px 16px;
+}
+
+.titleItem {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.textItem {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}

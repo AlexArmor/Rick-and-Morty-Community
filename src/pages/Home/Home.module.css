@@ -1,0 +1,35 @@
+.formSection {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inputSearch {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.inputSearch:focus {
+  box-shadow: 0 -5px 5px -5px rgba(9, 110, 0, 0.9) inset,
+    0 5px 5px -5px rgba(9, 110, 0, 0.9) inset;
+  outline-color: green;
+  border-right: none;
+}
+
+.btnSearch {
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+
+.btnSearch:hover,
+.btnSearch:focus {
+  background-color: rgb(3, 92, 3);
+  cursor: pointer;
+}
