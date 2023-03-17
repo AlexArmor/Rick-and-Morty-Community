@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { getCharacter, getCharacterByQuery } from 'service/api';
 import { CharacterList } from 'components/CharacterList/CharacterList';
+import RickAndMortyPicture from '../../images/rick_and_morty_inscription.png';
 import css from './Home.module.css';
 
 export const Home = () => {
@@ -30,19 +31,27 @@ export const Home = () => {
 
   return (
     <div className={css.formSection}>
-      <form onSubmit={onFormSubmit}>
-        <input
-          className={css.inputSearch}
-          name="name"
-          type="text"
-          value={searchQuery}
-          onChange={e => setSearchQuery(e.target.value)}
-        />
-        <button type="submit" className={css.btnSearch}>
-          Search
-        </button>
-      </form>
-      <CharacterList characters={characters} />
+      <div className={css.formContainer}>
+        <div className={css.imageWrapper}>
+          <img
+            className={css.imgPicture}
+            src={RickAndMortyPicture}
+            alt="Home inscription"
+          />
+        </div>
+        <form className={css.formSearch} onSubmit={onFormSubmit}>
+          <button type="submit" className={css.btnSearch}></button>
+          <input
+            className={css.inputSearch}
+            placeholder="Filter by name..."
+            name="name"
+            type="text"
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+          />
+        </form>
+        <CharacterList characters={characters} />
+      </div>
     </div>
   );
 };
