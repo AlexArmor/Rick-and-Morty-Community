@@ -1,22 +1,44 @@
 .sectionCharacterDetails {
-  padding: 20px;
+  padding: 21px 50px;
+}
+
+.linkBack {
+  display: block;
+  width: 108px;
+  height: 24px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+  gap: 8px;
+}
+
+.linkBack:hover,
+.linkBack:focus {
+  color: green;
+}
+
+.linkBack:focus {
+  outline: 1px solid #000000;
+}
+
+.iconLinkBack {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.textLinkBack {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
 }
 
 .characterInfo {
   width: 395px;
   margin: 0 auto;
-}
-
-.linkBack {
-  width: 70px;
-  padding: 5px;
-  background-color: green;
-  color: white;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
 }
 
 .imagePoster {

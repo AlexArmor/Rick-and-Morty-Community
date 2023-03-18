@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { getCharacterById } from 'service/api';
+import arrowSVG from '../../images/arrow_back_24px.svg';
 import css from './CharacterDetails.module.css';
 
 export const CharacterDetails = () => {
@@ -18,9 +19,10 @@ export const CharacterDetails = () => {
     return;
   }
   return (
-    <section className={css.sectionMovieDetails}>
+    <section className={css.sectionCharacterDetails}>
       <Link to={location.state?.from ?? '/'} className={css.linkBack}>
-        Go back
+        <img className={css.iconLinkBack} src={arrowSVG} alt="arrow" />
+        <span className={css.textLinkBack}>GO BACK</span>
       </Link>
       <div className={css.characterInfo}>
         <img

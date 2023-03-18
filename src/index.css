@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: 'Karla';
+  src: url('./fonts/Karla-Bold.ttf');
+  font-weight: 700;
+  font-style: bold;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
