@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { getCharacter, getCharacterByQuery } from 'service/api';
 import { CharacterList } from 'components/CharacterList/CharacterList';
+import { Loader } from 'components/Loader/Loader';
 import RickAndMortyPicture from '../../images/rick_and_morty_inscription.png';
 import css from './Home.module.css';
 
@@ -10,16 +11,20 @@ export const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchParams, setSearchParams] = useSearchParams();
   const characterName = searchParams.get('query') ?? '';
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    setIsLoading(true);
     if (!characterName) {
       getCharacter().then(({ results }) => {
         setCharacters(results);
+        setIsLoading(false);
       });
     } else {
       setSearchQuery(characterName);
       getCharacterByQuery(characterName).then(({ results }) => {
         setCharacters(results);
+        setIsLoading(false);
       });
     }
   }, [characterName]);
@@ -50,7 +55,7 @@ export const Home = () => {
             onChange={e => setSearchQuery(e.target.value)}
           />
         </form>
-        <CharacterList characters={characters} />
+        {isLoading ? <Loader /> : <CharacterList characters={characters} />}
       </div>
     </div>
   );
