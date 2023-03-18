@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Rick-and-Morty-Community/static/css/main.d804bf4c.css",
+    "main.css": "/Rick-and-Morty-Community/static/css/main.9c615ac1.css",
     "main.js": "/Rick-and-Morty-Community/static/js/main.1657cd0e.js",
     "static/media/rick_and_morty_inscription.png": "/Rick-and-Morty-Community/static/media/rick_and_morty_inscription.7025a60a8397a5bdc91d.png",
     "static/media/Karla-Bold.ttf": "/Rick-and-Morty-Community/static/media/Karla-Bold.623c61b6f8c6529800b2.ttf",
     "index.html": "/Rick-and-Morty-Community/index.html",
     "static/media/magnifier.svg": "/Rick-and-Morty-Community/static/media/magnifier.c77a50f238257623b5e0.svg",
     "static/media/arrow_back_24px.svg": "/Rick-and-Morty-Community/static/media/arrow_back_24px.df7c6d295a928487a666bb87daadb52a.svg",
-    "main.d804bf4c.css.map": "/Rick-and-Morty-Community/static/css/main.d804bf4c.css.map",
+    "main.9c615ac1.css.map": "/Rick-and-Morty-Community/static/css/main.9c615ac1.css.map",
     "main.1657cd0e.js.map": "/Rick-and-Morty-Community/static/js/main.1657cd0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d804bf4c.css",
+    "static/css/main.9c615ac1.css",
     "static/js/main.1657cd0e.js"
   ]
 }
