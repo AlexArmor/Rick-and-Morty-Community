@@ -1,14 +1,10 @@
 .loader {
-  top: 50%;
-  left: 50%;
   width: 100px;
   height: 100px;
-  transform: translate(-50%, -50%);
   border: 7px dotted #833ab4;
   border-style: solid solid dotted dotted;
   border-radius: 50%;
   display: inline-block;
-  position: absolute;
   box-sizing: border-box;
   animation: rotation 2s linear infinite;
 }
@@ -49,13 +45,13 @@
 
 .backdrop {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: transparent;
   z-index: 1200;
 }
