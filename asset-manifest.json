@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Rick-and-Morty-Community/static/css/main.7acaea2f.css",
-    "main.js": "/Rick-and-Morty-Community/static/js/main.1bfac4c0.js",
+    "main.css": "/Rick-and-Morty-Community/static/css/main.3e017970.css",
+    "main.js": "/Rick-and-Morty-Community/static/js/main.3f192565.js",
+    "static/media/rick_and_morty_inscription.png": "/Rick-and-Morty-Community/static/media/rick_and_morty_inscription.7025a60a8397a5bdc91d.png",
     "index.html": "/Rick-and-Morty-Community/index.html",
-    "main.7acaea2f.css.map": "/Rick-and-Morty-Community/static/css/main.7acaea2f.css.map",
-    "main.1bfac4c0.js.map": "/Rick-and-Morty-Community/static/js/main.1bfac4c0.js.map"
+    "static/media/magnifier.svg": "/Rick-and-Morty-Community/static/media/magnifier.c77a50f238257623b5e0.svg",
+    "main.3e017970.css.map": "/Rick-and-Morty-Community/static/css/main.3e017970.css.map",
+    "main.3f192565.js.map": "/Rick-and-Morty-Community/static/js/main.3f192565.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.1bfac4c0.js"
+    "static/css/main.3e017970.css",
+    "static/js/main.3f192565.js"
   ]
 }
