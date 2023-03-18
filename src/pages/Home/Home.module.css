@@ -1,19 +1,19 @@
 .formSection {
-  padding: 86px;
+  padding: 92px 24px;
 }
 
 .formContainer {
   margin: 0 auto;
   text-align: center;
-  width: 1020px;
-  margin: 0 auto;
+  min-width: 312px;
+  max-width: 1020px;
 }
 
 .imageWrapper {
-  width: 600px;
-  height: 200px;
+  max-width: 600px;
+  max-height: 200px;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 .imgPicture {
@@ -23,7 +23,7 @@
 
 .formSearch {
   display: flex;
-  margin-bottom: 61px;
+  margin-bottom: 32px;
 }
 
 .inputSearch {
@@ -33,6 +33,8 @@
   border-left: none;
   outline: none;
   border-width: 1px;
+
+  font-size: 20px;
 }
 
 .inputSearch:focus {
@@ -55,4 +57,18 @@
 .btnSearch:hover,
 .btnSearch:focus {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .formSection {
+    padding: 86px;
+  }
+
+  .imageWrapper {
+    margin-bottom: 16px;
+  }
+
+  .formSearch {
+    margin-bottom: 61px;
+  }
 }

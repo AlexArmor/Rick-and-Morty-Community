@@ -1,5 +1,5 @@
 .sectionCharacterDetails {
-  padding: 21px 50px;
+  padding: 23px 24px;
 }
 
 .linkBack {
@@ -9,8 +9,7 @@
   color: #000000;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 26px;
+  margin-bottom: 77px;
   gap: 8px;
 }
 
@@ -41,42 +40,36 @@
 }
 
 .characterInfo {
-  width: 395px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .imagePoster {
   margin: 0 auto;
-  width: 300px;
-  margin-bottom: 11px;
+  width: 150px;
+  margin-bottom: 34px;
   border-radius: 50%;
   border: 5px solid #f2f2f7;
 }
 
 .titleItem {
-  margin-bottom: 48px;
+  margin-bottom: 35px;
   width: 100%;
 
   text-align: center;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 1.17;
   color: #081f32;
 }
 .titleItem_text {
-  text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 16px;
 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #8e8e93;
   letter-spacing: 0.15px;
-}
-
-.list {
-  text-align: center;
-  margin: 0 auto;
 }
 
 .listItem {
@@ -91,4 +84,34 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.15px;
+}
+
+@media screen and (min-width: 1020px) {
+  .sectionCharacterDetails {
+    padding: 21px 50px;
+  }
+
+  .linkBack {
+    margin-bottom: 26px;
+  }
+
+  .characterInfo {
+    width: 395px;
+  }
+
+  .imagePoster {
+    width: 300px;
+    margin-bottom: 11px;
+  }
+
+  .titleItem {
+    margin-bottom: 48px;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .titleItem_text {
+    text-align: center;
+    margin-bottom: 48px;
+  }
 }

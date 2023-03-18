@@ -1,7 +1,7 @@
 .characterList {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 20px;
+  gap: 32px;
   justify-content: center;
 }
 
@@ -16,7 +16,6 @@
 }
 
 .imageItem {
-  width: 240px;
   height: 168px;
 }
 
@@ -37,4 +36,20 @@
   line-height: 1.5;
   letter-spacing: 0.25px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 560px) {
+  .characterItem {
+    width: 312px;
+  }
+
+  .imageItem {
+    height: 232px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .characterList {
+    gap: 24px 20px;
+  }
 }
