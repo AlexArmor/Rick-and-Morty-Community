@@ -1,6 +1,6 @@
 .loader {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border: 7px dotted #833ab4;
   border-style: solid solid dotted dotted;
   border-radius: 50%;
@@ -19,8 +19,8 @@
   margin: auto;
   border: 7px dotted #3ab45d;
   border-style: solid solid dotted;
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   animation: rotationBack 1s linear infinite;
   transform-origin: center center;
@@ -54,4 +54,5 @@
   height: 100vh;
   background-color: transparent;
   z-index: 1200;
+  background-color: rgba(0, 0, 0, 0.6);
 }
