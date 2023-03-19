@@ -19,12 +19,9 @@ export const CharacterDetails = () => {
       setIsLoading(false);
     });
   }, [idDetails]);
-  // if (!character) {
-  //   return <Loader />;
-  // }
   return (
     <>
-      {isLoading || !character ? (
+      {!character || isLoading ? (
         <Loader />
       ) : (
         <section className={css.sectionCharacterDetails}>

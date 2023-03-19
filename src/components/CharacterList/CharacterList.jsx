@@ -3,6 +3,8 @@ import css from './CharacterList.module.css';
 
 export const CharacterList = ({ characters }) => {
   const location = useLocation();
+  characters.sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <>
       <ul className={css.characterList}>
